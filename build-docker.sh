@@ -17,7 +17,7 @@ BUILD_ARGS=()
 while [[ $# -gt 0 ]]; do
     case "$1" in
         --gpu)
-            GPU="-gpu"
+            GPU="-gpu-v2"
             BASE_IMAGE="nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04"
         ;;
         --base-image)
